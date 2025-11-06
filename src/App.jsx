@@ -6,6 +6,7 @@ import HomePage from "@/components/pages/HomePage";
 function App() {
   useEffect(() => {
     const isValid = name.startsWith('John');
+    
     console.log({ isValid })
   }, [])
   return (
