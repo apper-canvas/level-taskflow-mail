@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import HomePage from "@/components/pages/HomePage";
@@ -6,7 +5,7 @@ import HomePage from "@/components/pages/HomePage";
 function App() {
   useEffect(() => {
     const isValid = name.startsWith('John');
-    
+
     console.log({ isValid })
   }, [])
   return (
